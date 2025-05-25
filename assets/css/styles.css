@@ -34,15 +34,6 @@
   --smaller-font-size: .75rem;
 }
 
-@media screen and (min-width: 968px) {
-  :root {
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-  }
-}
 
 /*=============== BASE ===============*/
 * {
@@ -186,7 +177,7 @@ body.dark-theme{
 .profile__profession{
   font-size: var(--smaller-font-size);
   font-weight: 500;
-  width: 400px;
+  width: 75%;
   place-items: center;
   justify-self: center;
   color: var(--text-color);
