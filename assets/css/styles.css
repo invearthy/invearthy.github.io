@@ -274,7 +274,7 @@ body.dark-theme{
 /*=============== FILTERS TABS ===============*/
 .filters__content{
   margin: 2rem auto;
-  width: 80%;
+  width: 90%;
   background-color: var(--text-color-lighten);
   padding: .375rem;
   border-radius: 1rem;
