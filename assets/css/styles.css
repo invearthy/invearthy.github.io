@@ -302,6 +302,7 @@ body.dark-theme{
 
 .filters__button:hover{
   background-color: var(--body-color);
+border-radius: 1rem;
 }
 /*=============== PROJECTS ===============*/
 .project__card{
