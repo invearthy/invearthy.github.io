@@ -13,13 +13,13 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Portfolio</title>
+        <title>Invearthy</title>
     </head>
     <body>
         <!--=============== HEADER PROFILE ===============-->
         <header class="profile container">
 
-            <i class="ri-moon-fill change-theme" id="theme-button"></i>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
 
             
 
@@ -27,23 +27,23 @@
                 <div class="profile__data">
                     <div class="profile__border">
                         <div class="profile__perfil">
-                            <img src="" alt="">
+                            <img src="assets/img/profile.jpg" alt="">
                         </div>
                     </div>
                     <h2 class="profile__name">Vearthy</h2>
                     
                     <h3 class="profile__profession">Hello everyone! My name is Ade Rian Maulana,
-                        I live in Central Java, Indonesia. My hobbies are desain and doing some cozy stuff like drawing and theming.</h3>
+                        I live in Central Java, Indonesia. My hobbies are desain and doing some cozy stuff like programming and theming.</h3>
 
                     <ul class="profile__social">
-                        <a href="https://www.instagram.com/byaernma/" target="_blank" class="profile__social-link">
-                            <i class="ri-instagram-fill"></i>
+                        <a href="https://www.instagram.com/invearthy/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
                         </a>
                         <a href="https://www.behance.net/aderianmaulana" target="_blank" class="profile__social-link">
-                            <i class="ri-behance-fill"></i>
+                            <i class="ri-linkedin-box-line"></i>
                         </a>
-                        <a href="mailto:byaernma@gmail.com" target="_blank" class="profile__social-link">
-                            <i class="ri-mail-fill"></i>
+                        <a href="https://www.behance.net/aderianmaulana" target="_blank" class="profile__social-link">
+                            <i class="ri-behance-line"></i>
                         </a>
                         
                     </ul>
@@ -72,14 +72,24 @@
 
                 <div class="profile__button">
                     <a href="https://www.freepik.com/author/Aernma" class="button">
-                        Assets <i class="ri-download-cloud-2-fill"></i>
+                        Assets <i class="ri-download-cloud-2-line"></i>
                     </a>
+                    
+                    <div class="profile__buttons-small">
+                       
+
+                        <a href="mailto:vearthyartwork@gmail.com" class="button button__small button__gray">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                        
+                    </div>
                     <div class="profile__buttons-small">
                        
 
                         <a href="https://t.me/aavadaakedavra" class="button button__small button__gray">
-                            <i class="ri-telegram-fill"></i>
+                            <i class="ri-telegram-line"></i>
                         </a>
+                        
                     </div>
                 </div>
             </div>
@@ -89,46 +99,87 @@
         <main class="main">
             <section class="filters container">
                 <!--=============== FILTERS TABS ===============-->
-                <ul class="filters__content">
+                
+                    <ul class="filters__content">
                     
+                        <button class="filters__button" data-target="#artwork">
+                            Artwork
+                        </button>
+                 
+                    
+                        <button class="filters__button" data-target="#projects">
+                            Project
+                        </button>
 
-                  
-                </ul>
+                        <button class="filters__button" data-target="#gallery">
+                            Gallery
+                        </button>
+                    </ul>
+                    
                 
                 <div class="filters__sections">
-                    <!--=============== PROJECTS ===============-->
-                    <div class="project__content grid filters__active" data-content id="projects">
-                        <article class="project__card">
+                    <div class="project__content grid " data-content id="artwork">
 
-                            <img src="assets/img/afl.png" alt="" class="project__img">
+                            <article class="project__card">
+
+                            <img src="assets/img/nevermore.heic" alt="" class="project__img">
                             <div class="project__modal">
                                 <div>
-                                    <span class="project__subtitle">A Part Of Custom Rom</span>
-                                    <h3 class="project__title">Afterlife Project</h3>
-                                    <a href="https://github.com/AfterLifePrjkt13" class="project__button button button__small">
-                                        <i class="ri-link"></i>
+                                    <span class="project__subtitle">Founded in 1791, Nevermore Academy is an academic institution that nurtures outcasts, freaks and monsters. Inspired by Wednesday Movie.
+
+                                    </span>
+                                    <h3 class="project__title">Nevermore Academy</h3>
+                                    <a href="https://www.instagram.com/p/DFsYXOOB8_f/?img_index=1" class="project__button button button__small">
+                                        <i class="ri-instagram-line"></i>
+                                    </a>
+                                    <a href="https://id.pinterest.com/pin/926686060832610674/" class="project__button button button__small">
+                                        <i class="ri-pinterest-line"></i>
                                     </a>
                                 </div>
                             </div>
 
                         </article>
 
+
+                    </div>
+
+                    <div class="skills__content grid " data-content id="gallery"></div>
+                    <!--=============== PROJECTS ===============-->
+                    <div class="project__content grid filters__active" data-content id="projects">
+                     
                         <article class="project__card">
 
                             <img src="assets/img/mugiwara.png" alt="" class="project__img">
                             <div class="project__modal">
                                 <div>
-                                    <span class="project__subtitle">Ex Developer Of</span>
-                                    <h3 class="project__title">Mugiwara Substratum Theme</h3>
+                                    <span class="project__subtitle">Its my build apk theme for theming and tweak ui, excpecially for aosp android 10. Using a subratum lite apk for apply. </span>
+                                    <h3 class="project__title">Mugiwara Themes</h3>
                                     <a href="https://t.me/luffyxzx" class="project__button button button__small">
-                                        <i class="ri-link"></i>
+                                        <i class="ri-telegram-line"></i>
                                     </a>
+                                    
                                 </div>
                             </div>
-                            
+
                         </article>
 
-                        
+                        <article class="project__card">
+
+                            <img src="assets/img/vch.jpg" alt="" class="project__img">
+                            <div class="project__modal">
+                                <div>
+                                    <span class="project__subtitle"> A channel telegram for sharing my guides about dcrc, make or port a feature and design ui expecially for android aosp/custom rom.
+                                    </span>
+                                    <h3 class="project__title">V</h3>
+                                    <a href="https://t.me/vprojct" class="project__button button button__small">
+                                        <i class="ri-telegram-line"></i>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+                        </article>
+
 
                        
 
@@ -145,7 +196,7 @@
         <!--=============== FOOTER ===============-->
         <footer class="footer container">
             <span class="footer__copy">
-                &#169; Bedimcode. All rigths reserved, edited by vearthy
+                &#169; Bedimcode. All rigths reserved edited by vearthy
             </span>
         </footer>
 
